@@ -36,7 +36,7 @@ def main():
         st.write("Processing video... This may take a while.")
 
         # Read video frames
-        video_frames = read_video(uploaded_video)
+        video_frames = read_video('input_vids/08fd33_4.mp4')
 
         # Initialize tracker and process tracks
         tracker = Tracker('models/best.pt')
