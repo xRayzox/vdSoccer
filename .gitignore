@@ -1,4 +1,3 @@
 cvenv/
 yolov8x.pt
-models/
 training/yolov5lu.pt
